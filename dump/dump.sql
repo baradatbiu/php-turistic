@@ -11,11 +11,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-
--- Дамп структуры базы данных turistic
-CREATE DATABASE IF NOT EXISTS `turistic` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `turistic`;
-
 -- Дамп структуры для таблица turistic.wp_commentmeta
 CREATE TABLE IF NOT EXISTS `wp_commentmeta` (
   `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
